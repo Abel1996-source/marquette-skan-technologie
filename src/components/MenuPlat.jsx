@@ -71,11 +71,11 @@ $(()=>{
                             <div className="elt-form">
                                 <form  className="myForm">
                                     <div className="imput-elt">
-                                        <input type="text" placeholder="Nom" className="form-control" />
+                                        <input type="text" placeholder="Nom" className="form-control nom" />
                                     </div>
                                     <div className="imput-elt">
                                         <span>F CFA</span>
-                                        <input type="text" placeholder="Prix " className="form-control" />
+                                        <input type="text" placeholder="Prix " className="form-control prix" />
                                     </div>
                                     <div className="label"><span>Image</span></div>
                                     <div className="input-elt image" >

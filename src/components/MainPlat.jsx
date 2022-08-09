@@ -59,6 +59,11 @@ const MainPlat = () => {
             price:2000
         },
     ])
+    $(()=>{
+        $(".pen").click(function(){
+            $(".prix").focus()
+        })
+    })
   return (
     <>
    {/* composant contenant les images des plats */}
